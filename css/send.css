@@ -89,7 +89,6 @@ nav ul .one {
 nav ul .last {
   margin-left: 9%;
   margin-right: 5%;
-  border-bottom: 4px solid #0f0c0b;
 }
 nav ul li {
   width: 24%;
@@ -195,12 +194,14 @@ section .time-box .price span {
 section .time-box .price button {
   float: right;
   background-color: #ffdf78;
-  width: 130px;
+  width: 120px;
   height: 40px;
   border: 2px solid #b29b53;
   margin: 10px 20px;
   border-radius: 6px;
-  color: #0f0c0b;
   font-weight: bold;
+}
+section .time-box .price button a {
+  color: #0f0c0b;
 }
 /*# sourceMappingURL=send.css.map */
