@@ -134,6 +134,13 @@ section .cash-box .money .money_cont input {
   border-radius: 8px;
   background-color: #f4f6f5;
 }
+section .cash-box .money .money_cont button {
+  width: 372px;
+  height: 60px;
+  border: 2px solid #b29b53;
+  border-radius: 8px;
+  background-color: #ffdf78;
+}
 section .cash-box .bank {
   width: 100%;
   height: 90px;
