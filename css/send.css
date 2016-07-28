@@ -1,0 +1,206 @@
+@charset "utf-8";
+html,
+body,
+ul,
+dl,
+dd,
+dt,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h5,
+h6,
+textarea,
+form,
+select,
+fieldset,
+table,
+td,
+div,
+input {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1,
+h2,
+h3,
+h5,
+h6,
+span,
+a,
+em,
+p {
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+html,
+body {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  width: 100%;
+  height: auto;
+  background-color: #f4f6f5;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #ffdc71;
+}
+header img {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 28px;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #ffdc71;
+}
+nav ul {
+  overflow: hidden;
+}
+nav ul .one {
+  margin-left: 5%;
+  margin-right: 9%;
+}
+nav ul .last {
+  margin-left: 9%;
+  margin-right: 5%;
+  border-bottom: 4px solid #0f0c0b;
+}
+nav ul li {
+  width: 24%;
+  float: left;
+  line-height: 36px;
+  text-align: center;
+}
+nav ul li a {
+  color: #b79d51;
+  font-size: 16px;
+}
+nav ul li .task {
+  color: #0f0c0b;
+}
+section {
+  width: 100%;
+  height: auto;
+}
+section .time-box {
+  margin-bottom: 14px;
+  background-color: #fff;
+}
+section .time-box .time {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  line-height: 50px;
+}
+section .time-box .time .time-one {
+  float: left;
+  display: block;
+  margin-left: 20px;
+  color: #838383;
+}
+section .time-box .time .time-two {
+  float: right;
+  display: block;
+  margin-right: 20px;
+  color: #838383;
+}
+section .time-box .add-one {
+  height: 170px !important;
+}
+section .time-box .addr {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #cecece;
+  position: relative;
+}
+section .time-box .addr .addr-text {
+  border-left: 1px dashed #ded6bb;
+  height: 60px;
+  margin: 10px 20px;
+}
+section .time-box .addr .addr-text .top {
+  overflow: hidden;
+}
+section .time-box .addr .addr-text .top img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+section .time-box .addr .addr-text .top p {
+  float: left;
+  margin-left: 22px;
+  color: #0f0c0b;
+}
+section .time-box .addr .addr-text .top span {
+  display: block;
+  float: right;
+  color: #838383;
+}
+section .time-box .addr .addr-text .remark {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+section .time-box .addr .addr-text .bottom img {
+  top: 60px;
+  left: 15px;
+}
+section .time-box .addr .addr-text .bottom p {
+  margin-top: 30px;
+}
+section .time-box .addr .addr-text .bottom span {
+  margin-top: 30px;
+}
+section .time-box .price {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #cecece;
+}
+section .time-box .price span {
+  display: block;
+  float: left;
+  color: #e6b927;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  margin-left: 20px;
+}
+section .time-box .price button {
+  float: right;
+  background-color: #ffdf78;
+  width: 130px;
+  height: 40px;
+  border: 2px solid #b29b53;
+  margin: 10px 20px;
+  border-radius: 6px;
+  color: #0f0c0b;
+  font-weight: bold;
+}
+/*# sourceMappingURL=send.css.map */
