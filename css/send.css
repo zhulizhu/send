@@ -66,7 +66,7 @@ header .img {
   width: 40px;
   height: 40px;
   margin-top: 16px;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 header h2 {
   font-size: 18px;
@@ -108,6 +108,96 @@ section {
   width: 100%;
   height: auto;
 }
+section .mup {
+  width: 100%;
+}
+section .mup img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+section .person {
+  width: 100%;
+}
+section .person p {
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #a6907e;
+}
+section .person .pic {
+  background-color: #fff;
+  width: 100%;
+  height: 130px;
+  border-top: 1px solid #9b9b9b;
+}
+section .person .pic div {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ffdf78;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+section .person .pic div img {
+  display: block;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+section .person .pic p {
+  text-align: center;
+  color: #383535;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+}
+section .crash-card {
+  width: 100%;
+  height: 140px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-top: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+}
+section .crash-card button {
+  margin: 6%;
+  width: 88%;
+  height: 50px;
+  border: 2px solid #b29b53;
+  border-radius: 8px;
+  background-color: #ffdf78;
+}
+section .crash-card button a {
+  color: #15110d;
+}
+section .crash-card ul {
+  margin: 0 5% 10px;
+}
+section .crash-card ul .last {
+  border-top: 1px solid #9b9b9b;
+}
+section .crash-card ul li {
+  height: 68px;
+  width: 100%;
+  line-height: 68px;
+}
+section .crash-card ul li span {
+  color: #3b3838;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 30%;
+}
+section .crash-card ul li input,
+section .crash-card ul li select {
+  height: 40px;
+  width: 68%;
+  font-size: 18px;
+  float: right;
+  margin-left: 2%;
+  margin-top: 18px;
+  line-height: 40px;
+}
 section .cash-box {
   width: 100%;
   height: auto;
@@ -120,44 +210,62 @@ section .cash-box .money {
   border-top: 1px solid #9b9b9b;
 }
 section .cash-box .money .money_cont {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
 }
 section .cash-box .money .money_cont p {
-  line-height: 36px;
+  line-height: 28px;
   margin-bottom: 20px;
 }
+section .cash-box .money .money_cont .mon {
+  display: block;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #15110d;
+  top: 38%;
+  left: 8px;
+}
 section .cash-box .money .money_cont input {
-  width: 372px;
-  height: 60px;
+  width: 100%;
+  height: 50px;
   border: 2px solid #9b9b9b;
   border-radius: 8px;
   background-color: #f4f6f5;
+  font-size: 24px;
+  font-weight: bolder;
+  text-indent: 2em;
 }
 section .cash-box .money .money_cont button {
-  width: 372px;
-  height: 60px;
+  width: 100%;
+  height: 50px;
   border: 2px solid #b29b53;
   border-radius: 8px;
   background-color: #ffdf78;
 }
+section .cash-box .money .money_cont button a {
+  color: #15110d;
+}
 section .cash-box .bank {
   width: 100%;
-  height: 90px;
+  height: auto;
   border-top: 1px solid #9b9b9b;
   border-bottom: 1px solid #9b9b9b;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 section .cash-box .bank .ban-left {
   float: left;
-  margin-left: 20px;
+  margin-left: 5%;
+  margin-bottom: 10px;
 }
 section .cash-box .bank .ban-left p {
   margin-top: 14px;
 }
 section .cash-box .bank .ban-right {
   float: right;
-  margin-right: 20px;
+  margin-right: 5%;
   margin-top: 32px;
 }
 section .time-box {
@@ -171,16 +279,31 @@ section .time-box .time {
   border-bottom: 1px solid #cecece;
   line-height: 50px;
 }
+section .time-box .time ul {
+  overflow: hidden;
+  text-align: center;
+}
+section .time-box .time ul li {
+  width: 30%;
+  margin-left: 3%;
+  float: left;
+}
+section .time-box .time ul li .p1 {
+  font-size: 20px;
+}
+section .time-box .time ul li p {
+  line-height: 180%;
+}
 section .time-box .time .time-one {
   float: left;
   display: block;
-  margin-left: 20px;
+  margin-left: 5%;
   color: #838383;
 }
 section .time-box .time .time-two {
   float: right;
   display: block;
-  margin-right: 20px;
+  margin-right: 5%;
   color: #838383;
 }
 section .time-box .add-one {
@@ -195,7 +318,7 @@ section .time-box .addr {
 section .time-box .addr .addr-text {
   border-left: 1px dashed #ded6bb;
   height: 60px;
-  margin: 10px 20px;
+  margin: 10px 5%;
 }
 section .time-box .addr .addr-text .top {
   overflow: hidden;
@@ -204,11 +327,11 @@ section .time-box .addr .addr-text .top img {
   display: block;
   position: absolute;
   top: 0;
-  left: 15px;
+  left: 3%;
 }
 section .time-box .addr .addr-text .top p {
   float: left;
-  margin-left: 22px;
+  margin-left: 4%;
   color: #0f0c0b;
 }
 section .time-box .addr .addr-text .top span {
@@ -220,15 +343,18 @@ section .time-box .addr .addr-text .remark {
   margin-top: 14px;
   margin-bottom: 14px;
 }
+section .time-box .addr .addr-text .bottom {
+  margin-top: 24px;
+}
 section .time-box .addr .addr-text .bottom img {
   top: 60px;
-  left: 15px;
+  left: 3%;
 }
 section .time-box .addr .addr-text .bottom p {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 section .time-box .addr .addr-text .bottom span {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 section .time-box .price {
   width: 100%;
@@ -242,19 +368,131 @@ section .time-box .price span {
   font-size: 24px;
   font-weight: bold;
   line-height: 60px;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 section .time-box .price button {
   float: right;
   background-color: #ffdf78;
-  width: 120px;
+  width: 100px;
   height: 40px;
   border: 2px solid #b29b53;
-  margin: 10px 20px;
+  margin: 10px 5%;
   border-radius: 6px;
   font-weight: bold;
 }
 section .time-box .price button a {
+  color: #0f0c0b;
+}
+section .product {
+  background-color: #fff;
+}
+section .product .pro-1 {
+  height: 40px;
+  border-top: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+}
+section .product .pro-1 p {
+  line-height: 40px;
+  margin-left: 5%;
+}
+section .product .pro-2 {
+  height: auto;
+  border-bottom: 1px solid #9b9b9b;
+}
+section .product .pro-2 ul .last {
+  border-bottom: none;
+}
+section .product .pro-2 ul li {
+  height: 70px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 2px solid #cecece;
+  overflow: hidden;
+}
+section .product .pro-2 ul li .one {
+  float: left;
+}
+section .product .pro-2 ul li .one p {
+  line-height: 180%;
+  margin-top: 5px;
+}
+section .product .pro-2 ul li .one div {
+  border: 2px solid #a6907e;
+  width: 50px;
+  height: 26px;
+  color: #a6907e;
+  text-align: center;
+}
+section .product .pro-2 ul li .two {
+  float: right;
+  line-height: 70px;
+}
+section .infor {
+  margin-top: 20px;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 20px;
+}
+section .infor .pro-2 li {
+  border-bottom: 0!important;
+}
+section .infor .pro-2 .one div {
+  margin-top: 10px;
+  width: 50px!important;
+  height: 50px!important;
+  background-color: #dadada;
+  border-radius: 50%;
+  border: 2px solid #9b9b9b!important;
+}
+section .infor .pro-2 span {
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+section .infor .pro-2 .two img {
+  margin-top: 10px;
+  display: block;
+  height: 32px;
+  width: auto;
+  padding-left: 10px;
+}
+section .infor .pro-2 .two p {
+  color: #7897ff;
+  line-height: 30px!important;
+}
+section .bt {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-top: 1px solid #9b9b9b;
+}
+section .bt .btn-1 {
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+  height: 40px;
+  background-color: #7897ff;
+  border: 2px solid #5369b2;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+section .bt .btn-1 a {
+  color: #fff;
+}
+section .bt .btn-2 {
+  margin-right: 5%;
+  width: 40%;
+  float: right;
+  height: 40px;
+  background-color: #ffdf78;
+  border: 2px solid #b29b53;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+section .bt .btn-2 a {
   color: #0f0c0b;
 }
 /*# sourceMappingURL=send.css.map */

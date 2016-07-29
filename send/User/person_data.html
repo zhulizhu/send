@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/send.css">
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <title>个人资料</title>
+</head>
+<body>
+<header>
+    <a class="img" style="width: 20px;height: 31px;margin-top: 14px;"><img style="display:block;width: 20px;
+      height: 31px;" src="../../images/pay-left.png"></a>
+
+    <h2 style="float: left;margin-left: 30%;padding-top: 22px">修改资料</h2>
+    <h4 style="float: right;;padding-top: 10px;margin-right: 5%"><a style="color: #0f0c0b;font-weight: bold;" href="#">提交</a>
+    </h4>
+</header>
+<section>
+    <div class="person">
+        <p>个人资料</p>
+
+        <div class="pic">
+            <div><img src="../../images/xiangji.png"></div>
+            <p>设置头像</p>
+        </div>
+    </div>
+    <div class="crash-card" style="margin-top: 0;height: auto;">
+        <ul>
+            <li><span>手机号</span><input type="text" placeholder="填写您的手机号"></li>
+            <li class="last"><span>姓名</span><input type="text" placeholder="填写您的姓名"></li>
+            <li class="last"><span>性别</span>
+                <select>
+                    <option>男</option>
+                <option>女</option>
+                </select>
+            </li>
+            <li class="last">
+                <span>生日</span>
+                <select id="year">
+                <option value="1970">1970年</option>
+            </select>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+<script type="text/javascript">
+    $(function () {
+        for(var i = 1970;i < 2016 ; i++)
+        {
+            document.getElementById("year").innerHTML += '<option value="'+i+'">'+i+'年'+'<'+'/'+'option'+'>';
+        }
+    })
+</script>
+</html>

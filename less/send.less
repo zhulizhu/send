@@ -25,206 +25,463 @@ html, body {
   height: auto;
   background-color: #f4f6f5;
 }
-header{
+
+header {
   width: 100%;
   height: 60px;
   background-color: #ffdc71;
-  .img{
+
+  .img {
     display: block;
-    float:left;
+    float: left;
     width: 40px;
     height: 40px;
     margin-top: 16px;
-    margin-left: 20px;
+    margin-left: 5%;
   }
-  h2{
-    font-size:18px;
+  h2 {
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     padding-top: 28px;
     margin-right: 30px;
   }
 }
-nav{
+
+nav {
   width: 100%;
   height: 40px;
   background-color: #ffdc71;
-  ul{
+  ul {
     overflow: hidden;
-    .one{
+    .one {
       margin-left: 5%;
       margin-right: 9%;
     }
-    .last{
+    .last {
       margin-left: 9%;
       margin-right: 5%;
     }
-    li{
+    li {
       width: 24%;
       float: left;
       line-height: 36px;
       text-align: center;
-      a{
-        color:#b79d51;
-        font-size:16px;
+      a {
+        color: #b79d51;
+        font-size: 16px;
       }
-      .task{
-        color:#0f0c0b;
+      .task {
+        color: #0f0c0b;
       }
     }
   }
 }
-section{
+
+section {
   width: 100%;
   height: auto;
-  .cash-box{
+  .mup{
+    width: 100%;
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .person {
+    width: 100%;
+    p {
+      margin-left: 5%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #a6907e;
+    }
+    .pic {
+      background-color: #fff;
+      width: 100%;
+      height: 130px;
+      border-top: 1px solid #9b9b9b;
+      div{
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        border: 2px solid #ffdf78;
+        border-radius: 50%;
+        margin-top: 10px;
+        img{
+          display: block;
+          margin-top: 16px;
+          margin-left: 16px;
+        }
+      }
+      p {
+        text-align: center;
+        color: #383535;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 2%;
+      }
+    }
+  }
+  .crash-card {
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-top: 1px solid #9b9b9b;
+    border-bottom: 1px solid #9b9b9b;
+    button {
+      margin: 6%;
+      width: 88%;
+      height: 50px;
+      border: 2px solid #b29b53;
+      border-radius: 8px;
+      background-color: #ffdf78;
+      a {
+        color: #15110d;
+      }
+    }
+    ul {
+      margin: 0 5% 10px;
+      .last {
+        border-top: 1px solid #9b9b9b;
+      }
+      li {
+        height: 68px;
+        width: 100%;
+        line-height: 68px;
+        span {
+          color: #3b3838;
+          font-size: 18px;
+          display: block;
+          float: left;
+          width: 30%;
+        }
+        select{
+
+        }
+        input,select {
+          height: 40px;
+          width: 68%;
+          font-size: 18px;
+          float: right;
+          margin-left: 2%;
+          margin-top: 18px;
+          line-height: 40px;
+
+        }
+      }
+    }
+
+  }
+  .cash-box {
     width: 100%;
     height: auto;
     margin-top: 20px;
     background-color: #fff;
-    .money{
+    .money {
       width: 100%;
       height: auto;
       border-top: 1px solid #9b9b9b;
-      .money_cont{
-        margin-left: 20px;
-        margin-right: 20px;
-        p{
-          line-height: 36px;
+      .money_cont {
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        p {
+          line-height: 28px;
           margin-bottom: 20px;
         }
-        input{
-          width: 372px;
-          height: 60px;
+        .mon {
+          display: block;
+          position: absolute;
+          font-size: 24px;
+          font-weight: bolder;
+          color: #15110d;
+          top: 38%;
+          left: 8px;
+        }
+        input {
+          width: 100%;
+          height: 50px;
           border: 2px solid #9b9b9b;
           border-radius: 8px;
           background-color: #f4f6f5;
+          font-size: 24px;
+          font-weight: bolder;
+          text-indent: 2em;
         }
-        button{
-          width: 372px;
-          height: 60px;
+        button {
+          width: 100%;
+          height: 50px;
           border: 2px solid #b29b53;
           border-radius: 8px;
           background-color: #ffdf78;
+          a {
+            color: #15110d;
+          }
         }
       }
     }
-    .bank{
+    .bank {
       width: 100%;
-      height: 90px;
+      height: auto;
       border-top: 1px solid #9b9b9b;
       border-bottom: 1px solid #9b9b9b;
       margin-bottom: 20px;
-      .ban-left{
+      overflow: hidden;
+      .ban-left {
         float: left;
-        margin-left: 20px;
-        p{
+        margin-left: 5%;
+        margin-bottom: 10px;
+        p {
           margin-top: 14px;
         }
       }
-      .ban-right{
+      .ban-right {
         float: right;
-        margin-right: 20px;
+        margin-right: 5%;
         margin-top: 32px;
       }
     }
   }
-  .time-box{
+  .time-box {
     margin-bottom: 14px;
     background-color: #fff;
-    .time{
+    .time {
       width: 100%;
       height: 50px;
-      border-top:1px solid #cecece;
-      border-bottom:1px solid #cecece;
+      border-top: 1px solid #cecece;
+      border-bottom: 1px solid #cecece;
       line-height: 50px;
-      .time-one{
+      ul{
+        overflow: hidden;
+        text-align: center;
+        .list-one{
+        }
+        li{
+          width: 30%;
+          margin-left: 3%;
+          float: left;
+          .p1{
+            font-size: 20px;
+          }
+          p{
+            line-height: 180%;
+          }
+        }
+      }
+      .time-one {
         float: left;
         display: block;
-        margin-left: 20px;
+        margin-left: 5%;
         color: #838383;
       }
-      .time-two{
+      .time-two {
         float: right;
         display: block;
-        margin-right: 20px;
+        margin-right: 5%;
         color: #838383;
       }
     }
-    .add-one{
+    .add-one {
       height: 170px !important;
     }
-    .addr{
+    .addr {
       width: 100%;
       height: 80px;
-      border-bottom:1px solid #cecece;
+      border-bottom: 1px solid #cecece;
       position: relative;
-      .addr-text{
-        border-left:1px dashed #ded6bb;
+      .addr-text {
+        border-left: 1px dashed #ded6bb;
         height: 60px;
-        margin: 10px 20px;
-        .top{
+        margin: 10px 5%;
+        .top {
           overflow: hidden;
-          img{
+          img {
             display: block;
             position: absolute;
             top: 0;
-            left:15px;
+            left: 3%;
           }
-          p{
+          p {
             float: left;
-            margin-left: 22px;
+            margin-left: 4%;
             color: #0f0c0b;
           }
-          span{
+          span {
             display: block;
             float: right;
             color: #838383;
           }
         }
-        .remark{
+        .remark {
           margin-top: 14px;
           margin-bottom: 14px;
         }
-        .bottom{
-          img{
+        .bottom {
+          margin-top: 24px;
+          img {
             top: 60px;
-            left:15px;
+            left: 3%;
           }
-          p{
-            margin-top: 30px;
+          p {
+            margin-top: 10px;
           }
-          span{
-            margin-top: 30px;
+          span {
+            margin-top: 10px;
           }
         }
       }
     }
-    .price{
+    .price {
       width: 100%;
       height: 60px;
-      border-bottom:1px solid #cecece;
-      span{
+      border-bottom: 1px solid #cecece;
+      span {
         display: block;
         float: left;
         color: #e6b927;
         font-size: 24px;
         font-weight: bold;
         line-height: 60px;
-        margin-left: 20px;
+        margin-left: 5%;
       }
-      button{
+      button {
         float: right;
         background-color: #ffdf78;
-        width: 120px;
+        width: 100px;
         height: 40px;
         border: 2px solid #b29b53;
-        margin: 10px 20px;
+        margin: 10px 5%;
         border-radius: 6px;
         font-weight: bold;
-        a{
+        a {
           color: #0f0c0b;
         }
+      }
+    }
+  }
+  .product{
+    background-color: #fff;
+.pro-1{
+  height: 40px;
+  border-top: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+  p{
+    line-height: 40px;
+    margin-left: 5%;
+  }
+}
+    .pro-2{
+      height: auto;
+      border-bottom: 1px solid #9b9b9b;
+      ul{
+        .last{
+          border-bottom: none;
+        }
+        li{
+          height: 70px;
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+          border-bottom: 2px solid #cecece;
+          overflow: hidden;
+          .one{
+
+            float: left;
+            p{
+              line-height: 180%;
+              margin-top: 5px;
+            }
+            div{
+              border: 2px solid #a6907e;
+             width: 50px;
+              height: 26px;
+              color: #a6907e;
+              text-align: center;
+            }
+          }
+          .two{
+            float: right;
+            line-height: 70px;
+          }
+
+        }
+      }
+    }
+  }
+  .infor{
+    margin-top: 20px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+    .pro-2{
+    li{
+      border-bottom:0!important;
+    }
+      .one{
+        div{
+          margin-top: 10px;
+          width: 50px!important;
+          height: 50px!important;
+          background-color: #dadada;
+          border-radius: 50%;
+          border: 2px solid #9b9b9b!important;
+        }
+      }
+      span{
+        display: block;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 5px;
+      }
+      .two{
+        img{
+          margin-top: 10px;
+          display: block;
+          height: 32px;
+          width: auto;
+          padding-left: 10px;
+        }
+        p{
+          color: #7897ff;
+          line-height: 30px!important;
+        }
+      }
+    }
+
+  }
+  .bt{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #9b9b9b;
+    .btn-1{
+      margin-left: 5%;
+      width: 40%;
+      float: left;
+      height: 40px;
+      background-color: #7897ff;
+      border: 2px solid #5369b2;
+      border-radius: 8px;
+      margin-top: 10px;
+      a{
+        color: #fff;
+      }
+    }
+    .btn-2{
+      margin-right: 5%;
+      width: 40%;
+      float: right;
+      height: 40px;
+      background-color: #ffdf78;
+      border: 2px solid #b29b53;
+      border-radius: 8px;
+      margin-top: 10px;
+      a{
+        color: #0f0c0b;
       }
     }
   }
